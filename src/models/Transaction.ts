@@ -1,7 +1,7 @@
 import { uuid } from 'uuidv4';
 
 class Transaction {
-  id: string;
+  id?: string;
 
   title: string;
 
